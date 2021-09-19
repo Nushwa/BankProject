@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/dist/css/bootstrap.css">
+    <link rel="stylesheet" type="text/css" href="bootstrap-4.3.1/dist/js/bootstrap.min.js">
+    <meta charset="UTF-8">
+    <title>Bank</title>
+    <style>
+
+        body,html {
+            height: 100%;
+            margin: 0;
+        }
+
+        .bg {
+            background-image: url("http://www.jubair.info/images/1.jpg");
+            background-color: #4e555b;
+
+            height: 320%;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+        .dropdown:hover .dropdown-content {
+            display: block;
+            background-color: white ;
+        }
+        .dropdown-content{
+            display: none;
+            z-index: 2;
+            position: absolute;
+            background-color: #4e555b;
+        }
+        /* Footer*/
+.footer{
+    background: black;
+    color: #D3D3D3;
+    height: 400px;
+    margin-top: fill;
+}
+
+    </style>
+</head>
+
+
+<body>
+<div class="bg">
+    <!-- Navbar Start-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <a class="navbar-brand" style="color:white; font-style: italic; font-stretch: expanded"> United Bank</a>
+        <button class="navbar-toggler" data-toggle="collapse">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse">
+            <ul class="navbar-nav mr-auto">
+
+                <!--Navbar items -->
+
+                <li class="nav-item active">
+                    <a class="nav-link" href="front1.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="about.html">About Us</a>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle"  data-toggle="dropdown">
+                        Login As
+                    </a>
+                    <div class="dropdown-content">
+                        <a class="dropdown-item" href="CEO.html">CEO</a>
+                        <a class="dropdown-item" href="bankt.html">Bank Teller</a>
+                        <a class="dropdown-item" href="manager.html">Manager</a>
+                        <a class="dropdown-item" href="clientman.html">Client Manager</a>
+                        <a class="dropdown-item" href="datapm.html">Data Processing Manager</a>
+                    </div>
+                </li>
+            </ul>
+
+            <form class="form-inline my-2 my-lg-0">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search">
+                <button class="btn btn-secondary" style="background-color: transparent" type="submit">Search</button>
+            </form>
+        </div>
+    </nav>
+    <!-- Navbar End -->
+
+    <!--Intro Start  -->
+    <center><h1 style=" font-style: oblique;color: white">Welcome to United Bank</h1></center><br>
+    <center><h2 style=" margin-top: -30px;font-style: oblique; color: white">How can we help you?</h2></center>
+    <!--Intro End  -->
+
+<!--- Carousel Start-->
+    <div  class="carousel slide" data-ride="carousel" id="carouselExampleIndicators" style="width: 950px;height: 520px">
+        <ol class="carousel-indicators">
+            <li data-target="#carouselExampleIndicators" data-slide-to="0"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+            <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
+
+        <div class="carousel-inner">
+            <!--Carousel Slides -->
+            <div class="carousel-item active">
+                    <img class="d-block w-100" src="https://www.akamai.com/uk/en/multimedia/images/intro/the-future-of-customer-experience-in-financial-services-intro.jpg?imwidth=1366" style="width:400px; height:520px" alt="online banking">
+                 <div class="carousel-caption d-none d-md-block">
+                     <h2> Online Banking</h2>
+                 </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="http://www.rsolutionspl.com/images/financial-services-.jpg" style="width:400px; height:520px" alt="First Choice for Financial Services">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2>First Choice for Financial Services</h2>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img class="d-block w-100" src="https://ak2.picdn.net/shutterstock/videos/1011267392/thumb/10.jpg" style="width:400px; height:520px" alt="loan">
+                <div class="carousel-caption d-none d-md-block">
+                    <h2> Banking Loan</h2>
+                </div>
+            </div>
+        </div>
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" data-slide="prev">
+            <span class="carousel-control-prev-icon"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" data-slide="next">
+            <span class="carousel-control-next-icon"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
+<!--- Carousel End -->
+
+<!-- Login Start -->
+    <div class="card" style="width: 390px;height: 360px; background-color: #343a40; margin-left: 950px; margin-top: -520px">
+        <div class="card-body">
+            <center><h5 class="card-title" style="color: white">Login Portal</h5></center>
+            <center><h6 class="card-subtitle mb-2 text-muted" style="color: white">Employee Sign Up</h6></center><br><Br>
+            <div class="form-group row">
+                <div class="col-sm-4" style="color: white">Email</div>
+                <div class="col-sm-6">
+                    <input type="number" name="n1" class="form-control" style="background-color: transparent" >
+                </div>
+            </div>
+            <div class="form-group row">
+                <div class="col-sm-4" style="color: white">Password</div>
+                <div class="col-sm-6">
+                    <input type="number" name="n1" class="form-control" style="background-color: transparent">
+                </div>
+            </div>
+            <br>
+            <center><input type="submit" value="Login" class="btn btn-secondary"></center>
+        </div>
+    </div>
+    <!----Login Portal End -->
+
+    <br><Br><br><br><Br><br><br>
+    <!-- Card Start-->
+    <center><h1 style="font-style: oblique;color: white"> Loans</h1></center>
+    <center><h3 style=" font-style: oblique;color: white">Information About Different Loans</h3></center>
+    <div class="card" style="width: 320px; margin-bottom: -500px; margin-left: 10px; background-color: #8699A4">
+        <img class="card-img-top" src="https://ak2.picdn.net/shutterstock/videos/1011267392/thumb/10.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h1>Personal Loan</h1>
+            <p class="card-text">Personal loans can be used for any personal expenses and don’t have a designated purpose. This makes them an attractive option for people with outstanding debts, such as credit card debt, who want to reduce their interest rates by transferring balances. Like other loans, personal loan terms depend on your credit history.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 320px;height: 495px; margin-bottom: -510px; margin-left: 340px; margin-top: 8px; background-color: #8699A4 ">
+        <img class="card-img-top" src="https://i1.wp.com/blog.financebuddha.com/wp-content/uploads/2019/02/business-loan-online.png?fit=1920%2C1080&ssl=1" alt="Card image cap">
+        <div class="card-body">
+            <h1>Business Loan</h1>
+            <p class="card-text">Small business loans are granted to entrepreneurs and aspiring entrepreneurs to help them start or expand a business. The best source of small business loans is the U.S. Small Business Administration (SBA), which offers a variety of options depending on each business’s needs.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 320px;height: 495px; margin-bottom: -500px; margin-left: 670px;margin-top: 14px; background-color: #8699A4">
+        <img class="card-img-top" src="https://4.bp.blogspot.com/-XHah5Dzrxn4/WZFYvVOzJLI/AAAAAAAAAYs/6gBXjNYc0V05Ri15O2PTki9McU2W-haDgCLcBGAs/s1600/education%2Bloan.jpg" alt="Card image cap">
+        <div class="card-body">
+            <h1>Student Loan</h1>
+            <p class="card-text">Student loans are offered to college students and their families to help cover the cost of higher education. There are two main types: federal student loans and private student loans. Federally funded loans are better, as they typically come with lower interest rates and more borrower-friendly repayment terms.</p>
+        </div>
+    </div>
+
+    <div class="card" style="width: 320px;height: 495px; margin-bottom: -500px;margin-left: 1000px; margin-top: 7px;  background-color: #8699A4">
+        <img class="card-img-top" src="https://blancpress.com/wp-content/uploads/2019/09/4.png" alt="Card image cap">
+        <div class="card-body">
+            <h1>PayDay Loan</h1>
+            <p class="card-text">Payday loans are short-term, high-interest loans designed to bridge the gap from one paycheck to the next, used predominantly by repeat borrowers living paycheck to paycheck. The government strongly discourages consumers from taking out payday loans because of their high costs and interest rates.</p>
+        </div>
+    </div>
+    <div>
+    <input type="submit" style="margin-bottom: -1064px ;margin-left: 1186px" class="btn btn-lg btn-secondary" value="Apply Now">
+    </div>
+    <!---Card End -->
+<div class="footer">
+    <div class="footer-content">
+        <div class="footer-section about"></div>
+        <div class="footer-section links"></div>
+        <div class="footer-section contact-form"></div>
+    </div>
+    <div class="footer-bottom">
+        &copy; Unitedbank.com | Designed by Nushwa Javed
+    </div>
+</div>
+
+</body>
+</html>
